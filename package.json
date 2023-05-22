@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dyl",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "自定义eslint规则",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,7 @@
     "url": "https://github.com/yumi-d/eslint-config-dyl/issues"
   },
   "homepage": "https://github.com/yumi-d/eslint-config-dyl#readme",
-  "devDependencies": {
-    "eslint": "^7.32.0"
-  },
+  "devDependencies": {},
   "exports": {
     ".": "./index.js",
     "./package.json": "./package.json"
@@ -30,6 +28,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
