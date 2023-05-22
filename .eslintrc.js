@@ -7,8 +7,4 @@
  */
 module.exports = {
   extends: ['dyl'],
-  rules: {
-    'no-plusplus': 1,
-    'no-continue': 1,
-  },
 };
